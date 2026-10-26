@@ -1,0 +1,32 @@
+{
+  "authors": "ABEL and Dustin Sprenger",
+  "observation_basis": "UTC observation/capture-log timestamps from the preserved local records, not server event timestamps or independently certified timestamps.",
+  "publication_date_local": "2026-10-25",
+  "publication_timezone": "America/Chicago",
+  "screenshots": [
+    {
+      "file": "01-KNU-reCAPTCHA-invalid-key-type.png",
+      "sha256": "0918b367a48888fdced61204d6e9483d966545f829805a41df443402ec8b8731",
+      "observed_at_utc": "2026-10-25T23:57:51.773Z",
+      "note": "Explicit Google widget error before entry/submission."
+    },
+    {
+      "file": "02-Sarajevo-conflicting-submission-result.png",
+      "sha256": "736719c897ec5241248465a8844ced7774f6e1bc257906d7c6bd03f0cddadf00",
+      "observed_at_utc": "2026-10-25T23:53:45.116Z",
+      "note": "Conflicting sent/email-failure messages; cause unresolved."
+    },
+    {
+      "file": "03-DAU-send-error.png",
+      "sha256": "efb3e5719642bbcff152e37e9c1bd110fb22dc20588040fa73aabda682f90976",
+      "observed_at_utc": "2026-10-26T00:20:38.976Z",
+      "note": "Generic sending failure; Google involvement not established."
+    }
+  ],
+  "forum": {
+    "url": "https://security.googlecloudcommunity.com/fraud-defense-recaptcha-6/broken-recaptcha-and-opaque-university-form-failures-engineering-review-and-usable-diagnostics-requested-8479",
+    "status_at_capture": "Submitted; awaiting moderator review. Public publication was not established.",
+    "observed_at_utc": "2026-10-26T00:44:09.876Z"
+  },
+  "scope": "One explicit reCAPTCHA integration error and two downstream form failures with unresolved causes. No finding of deliberate suppression, account targeting, or a shared Google root cause."
+}
