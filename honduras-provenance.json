@@ -1,0 +1,20 @@
+{
+  "preserved_at_utc": "2026-10-28T17:57:32.724211+00:00",
+  "original_filename": "Re_ Consulta Web - 'consultasweb@hondurasemb.org' (consultasweb@hondurasemb.org) - 2026-10-27 1322.eml",
+  "original_bytes": 600413,
+  "original_sha256": "fec32429a0eedfe46efe0d7cbf197efa7aa5a6bfdbcdadd757636abfb990bf7b",
+  "original_mtime_utc": "2026-10-28T17:40:43.127054+00:00",
+  "message_date": "Tue, 27 Oct 2026 18:22:25 +0000",
+  "from": "\"consultasweb@hondurasemb.org\" <consultasweb@hondurasemb.org>",
+  "subject": "Re: Consulta Web",
+  "message_id": "<SAEPR17MB177195C6B75041E17ACE09FC4CF5602@SAEPR17MB177195.namprd17.prod.outlook.com>",
+  "authentication_scope": "Saved receiving-server headers report DKIM, SPF and DMARC pass for the outer Honduras embassy reply. No independent cryptographic validation was performed. The quoted Framer notification is message-body text, not a separately authenticated original Framer message.",
+  "redactions": [
+    "Personal telephone and city/state replaced with explicit markers.",
+    "Inline signature image omitted.",
+    "Invisible mail-preview padding and MIME structure omitted.",
+    "Transport headers, authentication signatures and provider identifiers not reproduced in the public derivative."
+  ],
+  "preservation": "Original EML copied byte-for-byte with original filesystem mtime; original in main folder left unchanged. Public text and EML are labeled derivatives. Hashes establish byte identity, not an independently certified date.",
+  "authentication_summary": "Saved iCloud Authentication-Results: dkim=pass header.d=hondurasemb.org; dmarc=pass header.from=hondurasemb.org; spf=pass. These are recorded headers, not fresh validation."
+}

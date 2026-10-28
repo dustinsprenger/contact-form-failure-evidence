@@ -1,0 +1,65 @@
+[
+  {
+    "name": "spam-protection",
+    "url": "https://www.framer.com/help/articles/enable-spam-protection/",
+    "fetched_at_utc": "2026-10-28T17:51:49.984821+00:00",
+    "status": 200,
+    "bytes": 965158,
+    "sha256": "c3641e2a6e176fc30202c5bd56be855c330a5d5cc01c24f21c19f7b9d9ead0bb",
+    "note": "Public response bytes saved during fetch; local text extraction completed separately."
+  },
+  {
+    "name": "terms-v1.8",
+    "url": "https://www.framer.com/legal/terms-of-service",
+    "fetched_at_utc": "2026-10-28T17:51:49.985089+00:00",
+    "status": 200,
+    "bytes": 979298,
+    "sha256": "95d0ff41d136d07851e1a4de3cd9173e67f1f62e881b10ffbf5bfe0ca7d1b100",
+    "note": "Public response bytes saved during fetch; local text extraction completed separately."
+  },
+  {
+    "name": "february-incident",
+    "url": "https://www.framerstatus.com/incident/827256",
+    "fetched_at_utc": "2026-10-28T17:51:49.985302+00:00",
+    "status": 200,
+    "bytes": 136151,
+    "sha256": "678f5bcdda2b229cf0e03a21aa0c018c8478fbb9a677fba805bea89a2cdcf507",
+    "note": "Public response bytes saved during fetch; local text extraction completed separately."
+  },
+  {
+    "name": "privacy-v1.7",
+    "url": "https://www.framer.com/legal/privacy-statement/1.7",
+    "fetched_at_utc": "2026-10-28T17:51:49.985489+00:00",
+    "status": 200,
+    "bytes": 288845,
+    "sha256": "98071f1a3d0ec4c4fd772696502499621f06ec72d829da9f69c2089ccad8149c",
+    "note": "Requested version-suffixed path yielded homepage content. Not used as evidence of the privacy policy. Correct current policy captured separately."
+  },
+  {
+    "name": "agent-credit-usage",
+    "url": "https://www.framer.com/updates/agent-credit-usage/",
+    "fetched_at_utc": "2026-10-28T17:51:49.985659+00:00",
+    "status": 200,
+    "bytes": 859877,
+    "sha256": "55d03ec7be66a4f588244af2d665ba1cfaae9493aa5bb80cf6feecef0c78a8d7",
+    "note": "Public response bytes saved during fetch; local text extraction completed separately."
+  },
+  {
+    "name": "forms",
+    "url": "https://www.framer.com/help/articles/how-can-i-add-a-contact-form-to-my-framer-website/",
+    "fetched_at_utc": "2026-10-28T17:51:49.985923+00:00",
+    "status": 200,
+    "bytes": 957022,
+    "sha256": "adcbdfc602dc9471791908adf248b5dc69ecb0c153f6a30c3fee565eb316a5c0",
+    "note": "Public response bytes saved during fetch; local text extraction completed separately."
+  },
+  {
+    "name": "privacy-current",
+    "url": "https://www.framer.com/legal/privacy-statement",
+    "final_url": "https://www.framer.com/legal/privacy-statement",
+    "fetched_at_utc": "2026-10-28T17:54:08.341314+00:00",
+    "status": 200,
+    "bytes": 962019,
+    "sha256": "3b3221260758de2fe453dd9e9fe6ec74404ffa3e378fbaeeb28b9dc2d5248192"
+  }
+]

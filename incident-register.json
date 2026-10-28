@@ -1,0 +1,2322 @@
+{
+  "title": "Contact-form incident register",
+  "compiled_at_utc": "2026-10-28T17:57:32.724211+00:00",
+  "authors": "ABEL and Dustin Sprenger",
+  "scope": "Preserved errors, access obstacles, browser-control limitations and uncertain outcomes from the reviewed October 25–26 logs. Includes recovered cases. Counts are routes with recorded issues, not proven undelivered messages, and not a failure rate. No new submissions made.",
+  "method": "Combined initial attempt notes, EML-matched outcomes, alternative-route outcomes and latest saved queue; kept earlier issue history alongside later acknowledgments. Research-only leads, ordinary CAPTCHA presence, declined forms and routes with no observed error were excluded. Broader coverage than the original three-case report; not complete server telemetry. Local source paths are relative to the Government receipt inquiries folder. Raw private screenshots/logs remain local; public entries are redacted extracts.",
+  "category_counts": {
+    "Access or page-load obstacle": 14,
+    "Application or mail-sending error": 16,
+    "CAPTCHA or browser-interaction obstacle": 20,
+    "Explicit CAPTCHA configuration error": 2,
+    "Input validation / corrected preparation error": 1,
+    "Input validation / later acknowledgment": 1,
+    "Missing or contradictory acknowledgment": 21
+  },
+  "cases": [
+    {
+      "country": "Algeria",
+      "institution": "Conseil National de la Recherche Scientifique et des Technologies",
+      "url": "https://www.cnrst.dz/contact-us",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "not_ready",
+      "latest_saved_observation": "CNRST contact route timed out. CERIST contact is email/phone only. CDTA has form fields, but the live page contains unrelated gambling, escort and “hacklink” links; this route was excluded. No personal data entered and no submission.",
+      "events": [
+        {
+          "country": "Algeria",
+          "institution": "Conseil National de la Recherche Scientifique et des Technologies",
+          "url": "https://www.cnrst.dz/contact-us",
+          "status_at_capture": "not_ready",
+          "observation": "CNRST contact route timed out. CERIST contact is email/phone only. CDTA has form fields, but the live page contains unrelated gambling, escort and “hacklink” links; this route was excluded. No personal data entered and no submission.",
+          "recorded_time": "2026-10-25T20:48:47.958818+00:00",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 4/Algeria-CDTA-contact-state.txt",
+              "sha256": "2a798b875f568f3502d4fb709765e5ad1889bb10201327e7e7916bc21fdb04cc",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-001"
+    },
+    {
+      "country": "Burundi",
+      "institution": "Commission Nationale de l’Enseignement Supérieur (CNES)",
+      "url": "https://cnes-burundi.bi/index.php/publiques/",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "certificate_error_no_submission",
+      "latest_saved_observation": "No browser-warning bypass, HTTP request, contact details or submission. Certificate and TLS diagnostic preserved.",
+      "events": [
+        {
+          "country": "Burundi",
+          "institution": "Commission Nationale de l’Enseignement Supérieur (CNES)",
+          "url": "https://cnes-burundi.bi/index.php/publiques/",
+          "status_at_capture": "certificate_error_no_submission",
+          "observation": "net::ERR_CERT_DATE_INVALID — No browser-warning bypass, HTTP request, contact details or submission. Certificate and TLS diagnostic preserved.",
+          "recorded_time": "2026-10-26T02:40:05.306718+00:00",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 14/outcomes.json",
+          "source_log_sha256": "0791cb8f568110dca264034adfd29afc91fe42109467ea2f0575d6a407ceb985",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 14/Burundi-CNES-certificate-check-network.json",
+              "sha256": "3859bba16c2438dc3e70bb1d0b4d1292eb23901064e3a76a541ff0a4e3fc728c",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-002"
+    },
+    {
+      "country": "Estonia",
+      "institution": "University of Tartu",
+      "url": "https://ut.ee/et/kontakt",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "access_denied",
+      "latest_saved_observation": "Page remained at Performing security verification. No form reached, no data entered, no submission and no security-check bypass.",
+      "events": [
+        {
+          "country": "Estonia",
+          "institution": "University of Tartu",
+          "url": "https://ut.ee/et/kontakt",
+          "status_at_capture": "access_denied",
+          "observation": "Page remained at Performing security verification. No form reached, no data entered, no submission and no security-check bypass.",
+          "recorded_time": "2026-10-25T23:15:35.888Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Estonia-security-verification-state.txt",
+              "sha256": "a15f867ed89f1d26e633be449b48719806f40cba2f4332830f3c13dd1ead5844",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-003"
+    },
+    {
+      "country": "Eswatini",
+      "institution": "University of Eswatini library website",
+      "url": "https://www.scieng.uneswa.ac.sz/contact.html",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "certificate_error_no_submission",
+      "latest_saved_observation": "Browser refused navigation because certificate did not match requested hostname. No warning bypass, data entry or submission. A later attempt to inspect the generated error page was blocked by browser URL policy; no screenshot captured. Error cause beyond certificate validation remains unresolved.",
+      "events": [
+        {
+          "country": "Eswatini",
+          "institution": "University of Eswatini library website",
+          "url": "https://www.scieng.uneswa.ac.sz/contact.html",
+          "status_at_capture": "certificate_error_no_submission",
+          "observation": "net::ERR_CERT_COMMON_NAME_INVALID — Browser refused navigation because certificate did not match requested hostname. No warning bypass, data entry or submission. A later attempt to inspect the generated error page was blocked by browser URL policy; no screenshot captured. Error cause beyond certificate validation remains unresolved.",
+          "recorded_time": null,
+          "time_basis": "No event timestamp in this record.",
+          "source_log": "Alternative forwarding routes/Continuation batch 14/outcomes.json",
+          "source_log_sha256": "0791cb8f568110dca264034adfd29afc91fe42109467ea2f0575d6a407ceb985",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-004"
+    },
+    {
+      "country": "Fiji",
+      "institution": "www.foreignaffairs.gov.fj",
+      "url": "https://www.foreignaffairs.gov.fj/fiji-embassy-washington-dc-usa/contact-us-2/",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "submission blocked — Sucuri GEO01: Access from your Country was disabled by the administrator. No bypass attempted.",
+      "latest_saved_observation": "submission blocked — Sucuri GEO01: Access from your Country was disabled by the administrator. No bypass attempted.",
+      "events": [
+        {
+          "country": "Fiji",
+          "institution": "www.foreignaffairs.gov.fj",
+          "url": "https://www.foreignaffairs.gov.fj/fiji-embassy-washington-dc-usa/contact-us-2/",
+          "status_at_capture": "submission blocked — Sucuri GEO01: Access from your Country was disabled by the administrator. No bypass attempted.",
+          "observation": "submission blocked — Sucuri GEO01: Access from your Country was disabled by the administrator. No bypass attempted.",
+          "recorded_time": "2026-10-25T19:07:32.704Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-005"
+    },
+    {
+      "country": "Germany",
+      "institution": "Research in Germany / DAAD",
+      "url": "https://www.research-in-germany.org/Footer/contact-us.html",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "fetch_failed",
+      "latest_saved_observation": "Live contact page timed out. No information entered and no submission.",
+      "events": [
+        {
+          "country": "Germany",
+          "institution": "Research in Germany / DAAD",
+          "url": "https://www.research-in-germany.org/Footer/contact-us.html",
+          "status_at_capture": "fetch_failed",
+          "observation": "Live contact page timed out. No information entered and no submission.",
+          "recorded_time": "2026-10-25T19:47:35.308303+00:00",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/sources/verifyAlt4.json",
+              "sha256": "27b761b0a4e1cc072fe5d6b209089a8caa601043aba8c6089ebf34d019c0fe02",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-006"
+    },
+    {
+      "country": "Malaysia",
+      "institution": "MOSTI SISPAA",
+      "url": "https://mosti.spab.gov.my/eApps/system/index.do",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "access_denied",
+      "latest_saved_observation": "Clicked the official New Feedback link. Portal returned Unauthorized Access before any personal data was entered. No submission.",
+      "events": [
+        {
+          "country": "Malaysia",
+          "institution": "MOSTI SISPAA",
+          "url": "https://mosti.spab.gov.my/eApps/system/index.do",
+          "status_at_capture": "access_denied",
+          "observation": "Clicked the official New Feedback link. Portal returned Unauthorized Access before any personal data was entered. No submission.",
+          "recorded_time": "2026-10-25T21:05:59.702063+00:00",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 5/Malaysia-checked-state.txt",
+              "sha256": "0455c03e1dba9ca855b933694d72d01ee11ab25bb01e1ec7bcbb83f820654073",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-007"
+    },
+    {
+      "country": "Morocco",
+      "institution": "National Centre for Scientific and Technical Research",
+      "url": "https://www.cnrst.ma/fr/contact?vsig1_0=11",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "access_denied",
+      "latest_saved_observation": "Live browser returned 403 Forbidden. No form data entered and no submission attempted.",
+      "events": [
+        {
+          "country": "Morocco",
+          "institution": "National Centre for Scientific and Technical Research",
+          "url": "https://www.cnrst.ma/fr/contact?vsig1_0=11",
+          "status_at_capture": "access_denied",
+          "observation": "Live browser returned 403 Forbidden. No form data entered and no submission attempted.",
+          "recorded_time": "2026-10-25T21:30:05.041310+00:00",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 7/Morocco-checked-state.txt",
+              "sha256": "273f4471ce8db18ad8216f237443e340b87b5afd14009e954f8660411db1a3c0",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-008"
+    },
+    {
+      "country": "Morocco",
+      "institution": "us.diplomatie.ma",
+      "url": "https://us.diplomatie.ma/en/contact-information",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "not submitted — official contact page navigation timed out",
+      "latest_saved_observation": "not submitted — official contact page navigation timed out",
+      "events": [
+        {
+          "country": "Morocco",
+          "institution": "us.diplomatie.ma",
+          "url": "https://us.diplomatie.ma/en/contact-information",
+          "status_at_capture": "not submitted — official contact page navigation timed out",
+          "observation": "not submitted — official contact page navigation timed out",
+          "recorded_time": "2026-10-25T18:29:29.728Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-009"
+    },
+    {
+      "country": "Saint Lucia",
+      "institution": "Government of Saint Lucia",
+      "url": "https://www.stlucia.gov.lc/contactus",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "fetch_failed",
+      "latest_saved_observation": "Browser navigation blocked by ERR_CERT_COMMON_NAME_INVALID. No security warning bypassed, no data entered and no submission attempted.",
+      "events": [
+        {
+          "country": "Saint Lucia",
+          "institution": "Government of Saint Lucia",
+          "url": "https://www.stlucia.gov.lc/contactus",
+          "status_at_capture": "fetch_failed",
+          "observation": "Browser navigation blocked by ERR_CERT_COMMON_NAME_INVALID. No security warning bypassed, no data entered and no submission attempted.",
+          "recorded_time": "2026-10-25T23:52:46.625Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/sources/verifyAltD6.json",
+              "sha256": "3a255da12684caeb9c289822d95f0693b9ed9672069f8fee3ca2d2b41feb88de",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-010"
+    },
+    {
+      "country": "Samoa",
+      "institution": "Ministry of Women, Community and Social Development",
+      "url": "https://mwcsd.gov.ws/contact-us/",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "dns_error_no_submission",
+      "latest_saved_observation": "Browser reported ERR_NAME_NOT_RESOLVED. No personal data entered.",
+      "events": [
+        {
+          "country": "Samoa",
+          "institution": "Ministry of Women, Community and Social Development",
+          "url": "https://mwcsd.gov.ws/contact-us/",
+          "status_at_capture": "dns_error_no_submission",
+          "observation": "Browser reported ERR_NAME_NOT_RESOLVED. No personal data entered.",
+          "recorded_time": "2026-10-26T05:19:11.157341+00:00",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/remaining-country-queue.json",
+          "source_log_sha256": "63c10549b488e79a5977bf3f6782ddccdb55a4fae552b317bcb101c87b3f9bf8",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 16/Samoa-MWCSD-access-note.txt",
+              "sha256": "e5814585469df24bb592fce817890985e2d3480f69c195f51ddc732f69a037b5",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-011"
+    },
+    {
+      "country": "Saudi Arabia",
+      "institution": "Prince Mohammad Bin Fahd University Cognitive Science Research Center",
+      "url": "https://csrc.pmu.edu.sa/",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "not_ready",
+      "latest_saved_observation": "Browser navigation and follow-up page binding timed out. No inquiry entered or submitted. This is a browser access limitation, not an observed recipient rejection.",
+      "events": [
+        {
+          "country": "Saudi Arabia",
+          "institution": "Prince Mohammad Bin Fahd University Cognitive Science Research Center",
+          "url": "https://csrc.pmu.edu.sa/",
+          "status_at_capture": "not_ready",
+          "observation": "Browser navigation and follow-up page binding timed out. No inquiry entered or submitted. This is a browser access limitation, not an observed recipient rejection.",
+          "recorded_time": "2026-10-25T23:59:41.851Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-012"
+    },
+    {
+      "country": "Senegal",
+      "institution": "washington.senegaldiplomatie.org",
+      "url": "https://washington.senegaldiplomatie.org/contact/?lang=en",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "Browser certificate name mismatch; no bypass and no submission",
+      "latest_saved_observation": "Browser certificate name mismatch; no bypass and no submission",
+      "events": [
+        {
+          "country": "Senegal",
+          "institution": "washington.senegaldiplomatie.org",
+          "url": "https://washington.senegaldiplomatie.org/contact/?lang=en",
+          "status_at_capture": "Browser certificate name mismatch; no bypass and no submission",
+          "observation": "Browser certificate name mismatch; no bypass and no submission",
+          "recorded_time": "2026-10-25T18:17:39.519Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-013"
+    },
+    {
+      "country": "South Africa",
+      "institution": "wwwprod.csir.co.za",
+      "url": "https://wwwprod.csir.co.za/contact",
+      "category": "Access or page-load obstacle",
+      "latest_saved_status": "not submitted — browser certificate-date warning; not bypassed",
+      "latest_saved_observation": "not submitted — browser certificate-date warning; not bypassed",
+      "events": [
+        {
+          "country": "South Africa",
+          "institution": "wwwprod.csir.co.za",
+          "url": "https://wwwprod.csir.co.za/contact",
+          "status_at_capture": "not submitted — browser certificate-date warning; not bypassed",
+          "observation": "not submitted — browser certificate-date warning; not bypassed",
+          "recorded_time": "2026-10-25T18:22:37.054Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-014"
+    },
+    {
+      "country": "Bhutan",
+      "institution": "Gyalpozhing College of Information Technology",
+      "url": "https://www.gcit.edu.bt/contactUs",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "Something went wrong. Please try again.",
+      "events": [
+        {
+          "country": "Bhutan",
+          "institution": "Gyalpozhing College of Information Technology",
+          "url": "https://www.gcit.edu.bt/contactUs",
+          "status_at_capture": "send_error",
+          "observation": "Something went wrong. Please try again.",
+          "recorded_time": "2026-10-25T20:12:31.688Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Next forwarding batch/Bhutan-outcome-state.txt",
+              "sha256": "0e8462fb9d6c852c2f9ead3f310fd6f1dabb2b6d9b94b43381e21d04748d2529",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-015"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "institution": "University of Sarajevo",
+      "url": "https://www.unsa.ba/index.php/en/contact",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "After user submission the site redirected to its homepage and displayed both a sent status and an unable-to-send-email error. These signals conflict; mark uncertain, not confirmed. No repeat submission. The records do not establish whether the inquiry was stored or any recipient received it.",
+      "events": [
+        {
+          "country": "Bosnia and Herzegovina",
+          "institution": "University of Sarajevo",
+          "url": "https://www.unsa.ba/index.php/en/contact",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Unable to send email. Contact the site administrator if the problem persists. — After user submission the site redirected to its homepage and displayed both a sent status and an unable-to-send-email error. These signals conflict; mark uncertain, not confirmed. No repeat submission. The records do not establish whether the inquiry was stored or any recipient received it.",
+          "recorded_time": "2026-10-25T23:53:45.116Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Bosnia-conflicting-result-state.txt",
+              "sha256": "d0444aef4765f9360451a81be2dde090152cab6c1ab7b4456a04f1bf4a1f41a3",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Bosnia-conflicting-result.png",
+              "sha256": "736719c897ec5241248465a8844ced7774f6e1bc257906d7c6bd03f0cddadf00",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-016"
+    },
+    {
+      "country": "Côte d’Ivoire",
+      "institution": "Fonds pour la Science, la Technologie et l’Innovation (FONSTI)",
+      "url": "https://fonsti.org/contact/",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "After the user clicked Send, the site displayed: Votre envoi a échoué en raison d’une erreur serveur. Votre envoi a échoué en raison d’une erreur. Form fields retained. No successful receipt. Available browser warnings/errors empty. No deeper cause established; whether any part was stored or forwarded is unknown. Do not automatically repeat or substitute another submission without resolving this uncertainty.",
+      "events": [
+        {
+          "country": "Côte d’Ivoire",
+          "institution": "Fonds pour la Science, la Technologie et l’Innovation (FONSTI)",
+          "url": "https://fonsti.org/contact/",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Votre envoi a échoué en raison d’une erreur serveur.\nVotre envoi a échoué en raison d’une erreur. — After the user clicked Send, the site displayed: Votre envoi a échoué en raison d’une erreur serveur. Votre envoi a échoué en raison d’une erreur. Form fields retained. No successful receipt. Available browser warnings/errors empty. No deeper cause established; whether any part was stored or forwarded is unknown. Do not automatically repeat or substitute another submission without resolving this uncertainty.",
+          "recorded_time": "2026-10-25T23:13:24.176Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Cote dIvoire-server-error-observation.json",
+              "sha256": "602019783886927f51ba553a3092b2b6031fe6a8f26d37289328465dbef20092",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Cote dIvoire-server-error.png",
+              "sha256": "83c0343be489fe6b0099120af84b1b3b5aaef5e032f3f680b5658a69084a2bb4",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-017"
+    },
+    {
+      "country": "Kiribati",
+      "institution": "Ministry of Employment and Human Resource — Administration",
+      "url": "https://www.employment.gov.ki/contact/admin_contact_form",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "The Drupal contact form displayed a generic unexpected-error page after user submission. A fresh read-only navigation to the same form URL still loaded the form. No repeat submission performed; message delivery and processing stage remain unresolved.",
+      "events": [
+        {
+          "country": "Kiribati",
+          "institution": "Ministry of Employment and Human Resource — Administration",
+          "url": "https://www.employment.gov.ki/contact/admin_contact_form",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "The Drupal contact form displayed a generic unexpected-error page after user submission. A fresh read-only navigation to the same form URL still loaded the form. No repeat submission performed; message delivery and processing stage remain unresolved.",
+          "recorded_time": "2026-10-26T04:57:39.158Z",
+          "time_basis": "Time assistant observed the displayed error, not an independently captured server request timestamp.",
+          "source_log": "Alternative forwarding routes/Continuation batch 15/outcomes.json",
+          "source_log_sha256": "5f2064533682eecc3670f854faa93358ba473f25199b15229d45810c9009595a",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 15/Kiribati-MEHR-submission-error-state.txt",
+              "sha256": "506a9f5cc0a44ea030c6160cd47e734ee6890b50a6fc8ec55dccb9e26fbdc369",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 15/Kiribati-MEHR-submission-error.png",
+              "sha256": "31d2b1ad8508b98e3f9ac362876b6d8c3a15bcd047c9f6f3c1df55db3837e614",
+              "kind": "screenshot"
+            }
+          ]
+        },
+        {
+          "country": "Kiribati",
+          "institution": "Ministry of Employment and Human Resource — Administration",
+          "url": "https://www.employment.gov.ki/contact/admin_contact_form",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "The website encountered an unexpected error. Please try again later.",
+          "recorded_time": "2026-10-26T04:57:39.158Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 15/Kiribati-MEHR-submission-error.json",
+          "source_log_sha256": "62334460bf5d0f9f6ecd5befa4d626938cc9e825f0170f5580536d9b3fc033b8",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 15/Kiribati-MEHR-submission-error.json",
+              "sha256": "62334460bf5d0f9f6ecd5befa4d626938cc9e825f0170f5580536d9b3fc033b8",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-018"
+    },
+    {
+      "country": "Lebanon",
+      "institution": "Beirut Arab University",
+      "url": "https://bau.edu.lb/ContactUs",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "User reports Cannot process your request! after submission. Exact error text is present in page DOM within display:none error container at capture time. Form fields were cleared; no receipt observed. Screenshot shows post-error state, not the transient error. Delivery unconfirmed; do not repeat.",
+      "events": [
+        {
+          "country": "Lebanon",
+          "institution": "Beirut Arab University",
+          "url": "https://bau.edu.lb/ContactUs",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "User reports Cannot process your request! after submission. Exact error text is present in page DOM within display:none error container at capture time. Form fields were cleared; no receipt observed. Screenshot shows post-error state, not the transient error. Delivery unconfirmed; do not repeat.",
+          "recorded_time": "2026-10-25T22:43:31.309Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 9/Lebanon-error-observation.json",
+              "sha256": "e2f2a25480081e931b7f464812fc918dee617d62846ca8c6e37b755e781e9167",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 9/Lebanon-after-reported-error.png",
+              "sha256": "2ed19c820c59ca8f3372d9bb47f4f714375f048a2e362c8ae89d63bfac45d5a3",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-019"
+    },
+    {
+      "country": "Malaysia",
+      "institution": "Innovation & Commercialization Centre, Universiti Malaysia Terengganu",
+      "url": "https://icc.umt.edu.my/contact-us/",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "Initial browser validation prevented submission because required Subject field was configured as email. Used iCloud reply address in that field and placed intended subject atop the message. One actual submission returned: Your submission failed because of a server error. Your submission failed because of an error. Not counted as received; no automatic retry.",
+      "events": [
+        {
+          "country": "Malaysia",
+          "institution": "Innovation & Commercialization Centre, Universiti Malaysia Terengganu",
+          "url": "https://icc.umt.edu.my/contact-us/",
+          "status_at_capture": "send_error",
+          "observation": "Initial browser validation prevented submission because required Subject field was configured as email. Used iCloud reply address in that field and placed intended subject atop the message. One actual submission returned: Your submission failed because of a server error. Your submission failed because of an error. Not counted as received; no automatic retry.",
+          "recorded_time": "2026-10-25T22:11:26.550Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 9/Malaysia-outcome-state.txt",
+              "sha256": "f51ae09106d69de2456245a159ad2716a44b1f965a486c555985d7dc0e18112f",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 9/Malaysia-outcome.png",
+              "sha256": "39dcf75726faf430a015c298438ff282c68f8f9b2079850ed4e764c9f9caa018",
+              "kind": "screenshot"
+            }
+          ]
+        },
+        {
+          "country": "Malaysia",
+          "institution": "Innovation & Commercialization Centre, Universiti Malaysia Terengganu",
+          "url": "https://icc.umt.edu.my/contact-us/",
+          "status_at_capture": "submission_error",
+          "observation": "Initial browser validation prevented submission because required Subject field was configured as email. Used iCloud reply address in that field and placed intended subject atop the message. One actual submission returned: Your submission failed because of a server error. Your submission failed because of an error. Not counted as received; no automatic retry.",
+          "recorded_time": "2026-10-25T22:11:26.550Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 9/outcomes.json",
+          "source_log_sha256": "705e50f44e81d1b473c75b9dbdabf3fa45c40817e6ae84c7b2096bdf06d154a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 9/Malaysia-outcome-state.txt",
+              "sha256": "f51ae09106d69de2456245a159ad2716a44b1f965a486c555985d7dc0e18112f",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 9/Malaysia-outcome.png",
+              "sha256": "39dcf75726faf430a015c298438ff282c68f8f9b2079850ed4e764c9f9caa018",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-020"
+    },
+    {
+      "country": "Mexico",
+      "institution": "UNAM Coordinación de la Investigación Científica — Office of the Coordinator",
+      "url": "https://www.cic.unam.mx/contacto/",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "Returned Tenemos un problema, intenta de nuevo. No acknowledgment; not resubmitted.",
+      "events": [
+        {
+          "country": "Mexico",
+          "institution": "UNAM Coordinación de la Investigación Científica — Office of the Coordinator",
+          "url": "https://www.cic.unam.mx/contacto/",
+          "status_at_capture": "send_error",
+          "observation": "Returned Tenemos un problema, intenta de nuevo. No acknowledgment; not resubmitted.",
+          "recorded_time": "2026-10-25T22:27:17.395Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 11/Mexico-send-error.png",
+              "sha256": "7e47c61ea101ad1594bd3bbb95693e178307058e600de061c8015af0b72d5e91",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-021"
+    },
+    {
+      "country": "Nepal",
+      "institution": "Rapti Engineering College",
+      "url": "https://rec.edu.np/contact_us",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "After a single submission Rapti returned PHP warnings: Undefined array key \"mobile\" in contact.php line 272 and Cannot modify header information - headers already sent in response.php line 38. No success acknowledgment. It is unknown whether mail was queued before the response failed; do not duplicate this attempt.",
+      "events": [
+        {
+          "country": "Nepal",
+          "institution": "Rapti Engineering College",
+          "url": "https://rec.edu.np/contact_us",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "After a single submission Rapti returned PHP warnings: Undefined array key \"mobile\" in contact.php line 272 and Cannot modify header information - headers already sent in response.php line 38. No success acknowledgment. It is unknown whether mail was queued before the response failed; do not duplicate this attempt.",
+          "recorded_time": "2026-10-25T21:24:29.746Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 7/Nepal-outcome-state.txt",
+              "sha256": "6cd639c293d677c9a834efdb8ac1b9dd7e4d2c7f2dea414c2bb29613f58389c2",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 7/Nepal-outcome.jpg",
+              "sha256": "eefdfed10c640516a0a0b5e88796bde01990935e2041d2a335b5126ed6e704fa",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-022"
+    },
+    {
+      "country": "Nepal",
+      "institution": "Renewable Energy Test Station, Nepal Academy of Science and Technology",
+      "url": "https://retsnepal.org/contact",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "After one actual Send click, the site returned: Failed to instantiate component or class \"yii\\swiftmailer\\Mailer\". No acknowledgment was received. The optional phone was left empty.",
+      "events": [
+        {
+          "country": "Nepal",
+          "institution": "Renewable Energy Test Station, Nepal Academy of Science and Technology",
+          "url": "https://retsnepal.org/contact",
+          "status_at_capture": "send_error",
+          "observation": "After one actual Send click, the site returned: Failed to instantiate component or class \"yii\\swiftmailer\\Mailer\". No acknowledgment was received. The optional phone was left empty.",
+          "recorded_time": "2026-10-25T21:15:15.760Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 6/Nepal-outcome-state.txt",
+              "sha256": "00fa49e04d94a062fccae8efa7dcfd6037921d2db048a37826149e86a8fda547",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 6/Nepal-outcome.jpg",
+              "sha256": "9a0e30a21bc655ca39fb8e69ca1d67e04edb22c4aca1461b24f410786ae5beff",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-023"
+    },
+    {
+      "country": "North Macedonia",
+      "institution": "Institute of Biology, Ss. Cyril and Methodius University",
+      "url": "https://ib.pmf.ukim.edu.mk/contact",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "Email failed. Try again. Submitted once after approval; explicit sending error. No repeat submission.",
+      "events": [
+        {
+          "country": "North Macedonia",
+          "institution": "Institute of Biology, Ss. Cyril and Methodius University",
+          "url": "https://ib.pmf.ukim.edu.mk/contact",
+          "status_at_capture": "send_error",
+          "observation": "Email failed. Try again. Submitted once after approval; explicit sending error. No repeat submission.",
+          "recorded_time": "2026-10-25T20:30:55.456Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 3/NorthMacedonia-outcome-state.txt",
+              "sha256": "a0aa0943352174b4d12b9a7ec5e6f84de8ef97e590eabe55360d2580bd254fbf",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 3/NorthMacedonia-outcome.jpg",
+              "sha256": "e470b1a024413c2df335caafedf03d0bfb328eeda8c765989e02d3bba599ec55",
+              "kind": "screenshot"
+            }
+          ]
+        },
+        {
+          "country": "North Macedonia",
+          "institution": "Institute of Biology, Ss. Cyril and Methodius University",
+          "url": "https://ib.pmf.ukim.edu.mk/contact",
+          "status_at_capture": "send_error",
+          "observation": "Email failed. Try again. — Submitted once after approval; explicit sending error. No repeat submission.",
+          "recorded_time": "2026-10-25T20:30:55.456Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 3/outcomes.json",
+          "source_log_sha256": "3ef81e745f6e2c673503c4c01b50e8329084beb011be14cd6310a8c5ffae8410",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-024"
+    },
+    {
+      "country": "Papua New Guinea",
+      "institution": "www.dfa.gov.pg",
+      "url": "https://www.dfa.gov.pg/kundu-washington-dc/",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "explicit submission error",
+      "latest_saved_observation": "explicit submission error",
+      "events": [
+        {
+          "country": "Papua New Guinea",
+          "institution": "www.dfa.gov.pg",
+          "url": "https://www.dfa.gov.pg/kundu-washington-dc/",
+          "status_at_capture": "explicit submission error",
+          "observation": "explicit submission error",
+          "recorded_time": "2026-10-25T19:01:27.885Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": [
+            {
+              "path": "EML-matched inquiries/PNG-failure-state.txt",
+              "sha256": "4e6b505ebbc8dd01824ce34950ebbc4ffdd5b6321c06059d5eec698e277bc91c",
+              "kind": "evidence"
+            },
+            {
+              "path": "EML-matched inquiries/PNG-failure.jpg",
+              "sha256": "880c4fb50c5cb8ec6b11412ebc7ad9b9b1430cf3d50d7e1f8329a6cc4f1ce3db",
+              "kind": "evidence"
+            },
+            {
+              "path": "EML-matched inquiries/PNG-submitted-text.txt",
+              "sha256": "3f249927d6d5ac7d6c8acedd73f180479959504cd5ef9f92cfc3d7ec6c79d0e1",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-025"
+    },
+    {
+      "country": "Saudi Arabia",
+      "institution": "Dar Al Uloom University (DAU), general contact form",
+      "url": "https://dau.edu.sa/en/about-university/contact-us/",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "After the user attempted submission, the page displayed: Failed to send your message. Please try later or contact the administrator by another method. No receipt confirmation was shown. The error does not establish its technical cause or rule out partial processing. Do not resubmit or duplicate through another route without resolving this attempt.",
+      "events": [
+        {
+          "country": "Saudi Arabia",
+          "institution": "Dar Al Uloom University (DAU), general contact form",
+          "url": "https://dau.edu.sa/en/about-university/contact-us/",
+          "status_at_capture": "send_error",
+          "observation": "After the user attempted submission, the page displayed: Failed to send your message. Please try later or contact the administrator by another method. No receipt confirmation was shown. The error does not establish its technical cause or rule out partial processing. Do not resubmit or duplicate through another route without resolving this attempt.",
+          "recorded_time": "2026-10-26T00:20:38.976Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Saudi-Arabia-DAU-error-state.txt",
+              "sha256": "663bea36b4ca904e9a9526e81b5487bc602fc8fb1ba85d5f7d7285c944fd5456",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Saudi-Arabia-DAU-error.png",
+              "sha256": "efb3e5719642bbcff152e37e9c1bd110fb22dc20588040fa73aabda682f90976",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-026"
+    },
+    {
+      "country": "South Africa",
+      "institution": "University of Cape Town Department of Computer Science website administration",
+      "url": "https://old.cs.uct.ac.za/contact-info",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "After user submission the page explicitly reported a mail-sending SSL protocol error and retained the filled form. No delivery acknowledgement. This identifies a mail connection/protocol failure reported by the website, not its complete underlying cause. Whether any inquiry data was stored is unknown. Do not repeat this confirmed-attempt/uncertain-delivery submission.",
+      "events": [
+        {
+          "country": "South Africa",
+          "institution": "University of Cape Town Department of Computer Science website administration",
+          "url": "https://old.cs.uct.ac.za/contact-info",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Unable to send mail: (1, 'error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol') — After user submission the page explicitly reported a mail-sending SSL protocol error and retained the filled form. No delivery acknowledgement. This identifies a mail connection/protocol failure reported by the website, not its complete underlying cause. Whether any inquiry data was stored is unknown. Do not repeat this confirmed-attempt/uncertain-delivery submission.",
+          "recorded_time": "2026-10-25T23:25:49.512Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/South Africa-send-error-state.txt",
+              "sha256": "712b5ff1b99634fee3a158a9ff18e30118949b88f5d5f6001cc05d96b258f071",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/South Africa-send-error.png",
+              "sha256": "3a017f5c7808ae8417ea4718581b87ebad7cb6e62f8d983bd6dbf1b5ba7f10ad",
+              "kind": "screenshot"
+            }
+          ]
+        },
+        {
+          "country": "South Africa",
+          "institution": "University of Cape Town website administration",
+          "url": "https://old.cs.uct.ac.za/contact-info",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "Unable to send mail: (1, 'error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol')",
+          "recorded_time": "2026-10-25T23:25:49.512Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 13/South Africa-send-error-observation.json",
+          "source_log_sha256": "4300e27a2b9adb8b65c428057e3fec1a2b0690c70c196c7c6920d472206cf955",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/South Africa-send-error-observation.json",
+              "sha256": "4300e27a2b9adb8b65c428057e3fec1a2b0690c70c196c7c6920d472206cf955",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-027"
+    },
+    {
+      "country": "Sri Lanka",
+      "institution": "Sabaragamuwa University of Sri Lanka, Faculty of Applied Sciences",
+      "url": "https://www.sab.ac.lk/app/form/contact",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "After one submission the page displayed both Unable to send email. Contact the site administrator if the problem persists. and Your message has been sent. Conflicting notices; receipt is unconfirmed. Do not duplicate.",
+      "events": [
+        {
+          "country": "Sri Lanka",
+          "institution": "Sabaragamuwa University of Sri Lanka, Faculty of Applied Sciences",
+          "url": "https://www.sab.ac.lk/app/form/contact",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "After one submission the page displayed both Unable to send email. Contact the site administrator if the problem persists. and Your message has been sent. Conflicting notices; receipt is unconfirmed. Do not duplicate.",
+          "recorded_time": "2026-10-25T21:40:53.268Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 8/Sri-Lanka-outcome-state.txt",
+              "sha256": "9d8df1dba9f0ca2eac0fba768b098f3bb0bbc5da7917e3d2e3116b0677384a62",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 8/Sri-Lanka-outcome.jpg",
+              "sha256": "e7aedf5976fac7e478dcbdc0bf9ed9f824144366b6ba601faf5a2a107f9d3e8b",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-028"
+    },
+    {
+      "country": "Vanuatu",
+      "institution": "Ministry of Education and Training",
+      "url": "https://moet.gov.vu/index.php?id=contact-us",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "Submission displayed Fatal error: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'webeducation'@'localhost' (using password: YES), DAO.php line 17. Stack includes DAO->registerEmailAddress(). Database authentication failed; no success acknowledgment. No automatic retry; internal delivery cannot be confirmed.",
+      "events": [
+        {
+          "country": "Vanuatu",
+          "institution": "Ministry of Education and Training",
+          "url": "https://moet.gov.vu/index.php?id=contact-us",
+          "status_at_capture": "send_error",
+          "observation": "Submission displayed Fatal error: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'webeducation'@'localhost' (using password: YES), DAO.php line 17. Stack includes DAO->registerEmailAddress(). Database authentication failed; no success acknowledgment. No automatic retry; internal delivery cannot be confirmed.",
+          "recorded_time": "2026-10-26T04:50:30.934966+00:00",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 15/outcomes.json",
+          "source_log_sha256": "5f2064533682eecc3670f854faa93358ba473f25199b15229d45810c9009595a",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 15/Vanuatu-MOET-submission-error-state.txt",
+              "sha256": "ce54231decd3fa8fa1252ed53793c0eedc5100986bbac9eff854daa7c5275f8a",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 15/Vanuatu-MOET-submission-error.png",
+              "sha256": "ad166b5ac2c1ec53e15780dd1bd739d222f52e75d34fce652072686ef47058ac",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-029"
+    },
+    {
+      "country": "Vanuatu",
+      "institution": "National University of Vanuatu",
+      "url": "https://www.univ.edu.vu/contact-us/",
+      "category": "Application or mail-sending error",
+      "latest_saved_status": "send_error",
+      "latest_saved_observation": "There was an error trying to send your message. Please try again later.",
+      "events": [
+        {
+          "country": "Vanuatu",
+          "institution": "National University of Vanuatu",
+          "url": "https://www.univ.edu.vu/contact-us/",
+          "status_at_capture": "send_error",
+          "observation": "There was an error trying to send your message. Please try again later.",
+          "recorded_time": "2026-10-25T20:11:43.078Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Next forwarding batch/Vanuatu-outcome-state.txt",
+              "sha256": "7228dd75b2857b0fa5e2d52dc9bc925ba8143b3c226b7f143fd2920eba73fabe",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-030"
+    },
+    {
+      "country": "Argentina",
+      "institution": "CONICET",
+      "url": "https://www.conicet.gov.ar/contacto/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "After user requested next, the form retained the inquiry and the security-code field was empty; no acknowledgement or current error visible. It is unknown whether the user made a new Submit attempt. No repeat submission will be made without clarifying. Earlier explicit security-code rejections remain recorded.",
+      "events": [
+        {
+          "country": "Argentina",
+          "institution": "CONICET",
+          "url": "https://www.conicet.gov.ar/contacto/",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "El código de seguridad es incorrecto. — After user requested next, the form retained the inquiry and the security-code field was empty; no acknowledgement or current error visible. It is unknown whether the user made a new Submit attempt. No repeat submission will be made without clarifying. Earlier explicit security-code rejections remain recorded.",
+          "recorded_time": "2026-10-25T23:05:46.464Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Argentina-after-user-next-state.txt",
+              "sha256": "fbbea4c3ecf29c720d7d42bf887bb46236260aac1d4386a4a193eebba35f8646",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Argentina-after-user-next.png",
+              "sha256": "9a1cac7232d789eb8cd746c34f874c2bcd6e840f12569069c756efc25ba13aff",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-031"
+    },
+    {
+      "country": "Austria",
+      "institution": "OeAD",
+      "url": "https://oead.at/de/kontakt",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "OeAD displayed Vielen Dank für Ihre Anfrage and said it would respond as soon as possible. Earlier browser validation required nationality, entered Not specified; a rejected CAPTCHA was corrected before acknowledgment. All five links and iCloud included.",
+      "events": [
+        {
+          "country": "Austria",
+          "institution": "OeAD",
+          "url": "https://oead.at/de/kontakt",
+          "status_at_capture": "confirmed",
+          "observation": "OeAD displayed Vielen Dank für Ihre Anfrage and said it would respond as soon as possible. Earlier browser validation required nationality, entered Not specified; a rejected CAPTCHA was corrected before acknowledgment. All five links and iCloud included.",
+          "recorded_time": "2026-10-25T20:58:50.371Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 5/Austria-outcome-state.txt",
+              "sha256": "15536230632fd550d90b86d4d7708b044173f60d3126e0a95d569abaeb7fb4ec",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 5/Austria-outcome.jpg",
+              "sha256": "060a19be3c02348395eeec031f75fe51267fd931636408c00e671e0036964969",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-032"
+    },
+    {
+      "country": "Bahrain",
+      "institution": "Arab Open University Bahrain — Assistant President for Academic Affairs and Scientific Research",
+      "url": "https://www.aou.org.bh/about/Pages/get-in-touch.aspx",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "Submitted Successfully. First code rejected as Invalid captcha entry; corrected code accepted and form cleared. No phone or attachments sent.",
+      "events": [
+        {
+          "country": "Bahrain",
+          "institution": "Arab Open University Bahrain — Assistant President for Academic Affairs and Scientific Research",
+          "url": "https://www.aou.org.bh/about/Pages/get-in-touch.aspx",
+          "status_at_capture": "confirmed",
+          "observation": "Submitted Successfully. First code rejected as Invalid captcha entry; corrected code accepted and form cleared. No phone or attachments sent.",
+          "recorded_time": "2026-10-25T22:27:50.874Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 11/Bahrain-confirmed.png",
+              "sha256": "3e931646ee6a60667268e1f092b94820f5e7a8c39fa16f2cf7e1050db3e024ea",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-033"
+    },
+    {
+      "country": "Benin",
+      "institution": "Académie Nationale des Sciences, Arts et Lettres du Bénin",
+      "url": "https://www.academie-sciences.bj/contact",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "User submitted the prepared inquiry; the form was replaced by an explicit success acknowledgement. Confirms receipt of this web inquiry only, not original email delivery, forwarding or human reading.",
+      "events": [
+        {
+          "country": "Benin",
+          "institution": "Académie Nationale des Sciences, Arts et Lettres du Bénin",
+          "url": "https://www.academie-sciences.bj/contact",
+          "status_at_capture": "captcha_manual_completion_needed",
+          "observation": "Required phone reformatted to digits after browser validation. Server returned Problème lié au captcha. Merci de bien vouloir reprendre. User approved the newly displayed CAPTCHA; checkbox opened a pedestrian-crossing image challenge. Tool could not safely interact with fractional iframe coordinates. Form remains filled; no acknowledgment and no further submission.",
+          "recorded_time": "2026-10-25T21:03:22.280Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 5/outcomes.json",
+          "source_log_sha256": "4a97ebcdaae87590f09ffa39f7cd3c472745f1a516d0f559f8e276e10aa0c5eb",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 5/Benin-outcome-state.txt",
+              "sha256": "7b2e3ea75f79c77eebb06d26a64efcd50380fea810894422165e098fe67fa54b",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 5/Benin-manual-captcha.jpg",
+              "sha256": "1972b19bb0b5d7b9314abf9abe9796c6314e64e18c85fbb69a7a7fa47662ff56",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-034"
+    },
+    {
+      "country": "Brazil",
+      "institution": "University of São Paulo — Fale com a USP",
+      "url": "https://www5.usp.br/fale-com-a-usp/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "USP general contact form filled with complete inquiry. Initial submit click did not produce an acknowledgment. A visible Cloudflare check remained. User approved completion; browser refused with “Cannot click content inside a closed shadow root.” No acknowledgment and no repeat submit. Kept open for manual completion. Conservative queue correction: Send was clicked without acknowledgment, so do not repeat or submit another route.",
+      "events": [
+        {
+          "country": "Brazil",
+          "institution": "University of São Paulo — Fale com a USP",
+          "url": "https://www5.usp.br/fale-com-a-usp/",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "USP general contact form filled with complete inquiry. Initial submit click did not produce an acknowledgment. A visible Cloudflare check remained. User approved completion; browser refused with “Cannot click content inside a closed shadow root.” No acknowledgment and no repeat submit. Kept open for manual completion. Conservative queue correction: Send was clicked without acknowledgment, so do not repeat or submit another route.",
+          "recorded_time": "2026-10-25T20:47:03.909Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 4/Brazil-filled-state.txt",
+              "sha256": "0b34cf2f6e05e6613ad6d3d25a267c8d92ade907e45ab911b7bc2e4d21163920",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 4/Brazil-outcome.jpg",
+              "sha256": "faf809d510cd10891de6b2cfa2de3f96f8f95704737b418240be4b497a8b1635",
+              "kind": "screenshot"
+            }
+          ]
+        },
+        {
+          "country": "Brazil",
+          "institution": "University of São Paulo — Fale com a USP",
+          "url": "https://www5.usp.br/fale-com-a-usp/",
+          "status_at_capture": "captcha_manual_completion_needed",
+          "observation": "USP general contact form filled with complete inquiry. Initial submit click did not produce an acknowledgment. A visible Cloudflare check remained. User approved completion; browser refused with “Cannot click content inside a closed shadow root.” No acknowledgment and no repeat submit. Kept open for manual completion.",
+          "recorded_time": "2026-10-25T20:47:03.909Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 4/outcomes.json",
+          "source_log_sha256": "c240652a4263f323d5ae6a8080176a4147d7a04707f577fa03382315ab7c3192",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 4/Brazil-filled-state.txt",
+              "sha256": "0b34cf2f6e05e6613ad6d3d25a267c8d92ade907e45ab911b7bc2e4d21163920",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 4/Brazil-outcome.jpg",
+              "sha256": "faf809d510cd10891de6b2cfa2de3f96f8f95704737b418240be4b497a8b1635",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-035"
+    },
+    {
+      "country": "Dominica",
+      "institution": "Government Information Service",
+      "url": "https://www.news.gov.dm/contact-gis",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "Approved math CAPTCHA completed; Send Message clicked once; fields cleared but no explicit acknowledgment was observed. Reset fields alone do not confirm receipt. No duplicate submission.",
+      "events": [
+        {
+          "country": "Dominica",
+          "institution": "Government Information Service",
+          "url": "https://www.news.gov.dm/contact-gis",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Approved math CAPTCHA completed; Send Message clicked once; fields cleared but no explicit acknowledgment was observed. Reset fields alone do not confirm receipt. No duplicate submission.",
+          "recorded_time": "2026-10-25T20:17:27.633Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Further forwarding batch/Dominica-outcome-state.txt",
+              "sha256": "f51439e8c24cce51f38a75bcb636304f11f57ecec7258281c4fd619be592ec5b",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-036"
+    },
+    {
+      "country": "Fiji",
+      "institution": "Fiji National University",
+      "url": "https://www.fnu.ac.fj/contact-us/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "User completed submission. Browser visibly displays: Thank you for contacting us via our website. We will try to contact you as soon as possible. Fields cleared; marketing choices remain No thanks. No repeat submission performed. This acknowledges the new form inquiry only.",
+      "events": [
+        {
+          "country": "Fiji",
+          "institution": "Fiji National University",
+          "url": "https://www.fnu.ac.fj/contact-us/",
+          "status_at_capture": "captcha_manual_completion_needed",
+          "observation": "Approved inquiry filled, all marketing options No thanks. CAPTCHA image selection blocked by browser input safety check. Submit not clicked; no phone transmitted.",
+          "recorded_time": null,
+          "time_basis": "No event timestamp in this record.",
+          "source_log": "Alternative forwarding routes/Further forwarding batch/outcomes.json",
+          "source_log_sha256": "5d3f7ddf3a5e6bd128ffc9f8db03c29eedebffbc77fb2b27d0c9161f15417e65",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Further forwarding batch/Fiji-outcome-state.txt",
+              "sha256": "7e1955ad91a0cbab70717e06974783af3e5a5b1cd38841a86dddcbddd904fe1c",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Further forwarding batch/Fiji-outcome.jpg",
+              "sha256": "64da658f6f888ee0235cc676517771902d4f544b54f5820dad4129ff82bd3bfe",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-037"
+    },
+    {
+      "country": "India",
+      "institution": "Council of Scientific and Industrial Research (CSIR), India",
+      "url": "https://www.csir.res.in/en/csir/contact",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "After correcting a CAPTCHA rejection and a re-rendered email address changed to [at]/[dot], the third validated form attempt redirected to the CSIR homepage with a token parameter. No explicit success acknowledgment or reference number appeared. Original exact email and body restored before final attempt. Do not duplicate; receipt remains unconfirmed.",
+      "events": [
+        {
+          "country": "India",
+          "institution": "Council of Scientific and Industrial Research (CSIR), India",
+          "url": "https://www.csir.res.in/en/csir/contact",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "After correcting a CAPTCHA rejection and a re-rendered email address changed to [at]/[dot], the third validated form attempt redirected to the CSIR homepage with a token parameter. No explicit success acknowledgment or reference number appeared. Original exact email and body restored before final attempt. Do not duplicate; receipt remains unconfirmed.",
+          "recorded_time": "2026-10-25T21:27:29.101Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 7/India-outcome-state.txt",
+              "sha256": "abb714bf8efaa526b2a729ef2056c72582111aaef97a2d809395a6156d2ba5b6",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 7/India-outcome.jpg",
+              "sha256": "56ebf0a17a718604b2a5e4d35b2b37fa67a7ecfb005f447d0f12480815fa8a05",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-038"
+    },
+    {
+      "country": "Latvia",
+      "institution": "University of Latvia Leadership and Administration",
+      "url": "https://www.lu.lv/en/about-us/contacts/submitting-suggestions-applications-or-complaints/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "User completed the form; browser shows: Thank you, your message has been received! No repeat submission performed. This acknowledges the new inquiry only, not receipt of the October 22 email.",
+      "events": [
+        {
+          "country": "Latvia",
+          "institution": "University of Latvia Leadership and Administration",
+          "url": "https://www.lu.lv/en/about-us/contacts/submitting-suggestions-applications-or-complaints/",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "Image CAPTCHA could not be completed reliably through browser control; user took over. This is a browser-interaction limitation, not proof of defective CAPTCHA or blocked delivery. The later saved page explicitly acknowledged the inquiry.",
+          "recorded_time": "2026-10-25T22:37:57.501Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 10/Latvia-confirmed-state.txt",
+          "source_log_sha256": "52d76e3540444fc8c310cf96d07c7c659e1114a2562f53ae7f5b58fe1db84d40",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 10/Latvia-confirmed-state.txt",
+              "sha256": "52d76e3540444fc8c310cf96d07c7c659e1114a2562f53ae7f5b58fe1db84d40",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-039"
+    },
+    {
+      "country": "Madagascar",
+      "institution": "UNIPOD Madagascar",
+      "url": "https://unipod.mesupres.mg/contact/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "User completed submission. Visible acknowledgement: Message envoyé ! Notre équipe a bien reçu votre message et vous répondra sous 48h ouvrées. Confirms this web inquiry only; not delivery of the original email.",
+      "events": [
+        {
+          "country": "Madagascar",
+          "institution": "UNIPOD Madagascar",
+          "url": "https://unipod.mesupres.mg/contact/",
+          "status_at_capture": "captcha_manual_completion_needed",
+          "observation": "Form filled after approval. CAPTCHA was also explicitly authorized, but browser tool cannot click content inside its closed shadow root. Submit not clicked. Manual completion required.",
+          "recorded_time": null,
+          "time_basis": "No event timestamp in this record.",
+          "source_log": "Alternative forwarding routes/Continuation batch 3/outcomes.json",
+          "source_log_sha256": "3ef81e745f6e2c673503c4c01b50e8329084beb011be14cd6310a8c5ffae8410",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-040"
+    },
+    {
+      "country": "Malta",
+      "institution": "American University of Malta, General Inquiries",
+      "url": "https://aum.edu.mt/Contact?department=General+Inquiries&faculty=info%40aum.edu.mt&subject=General+Inquiries+Inquiry",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "User completed the form; browser shows Thank you! Your message has been sent. We will get back to you shortly. No repeat submission performed. This acknowledges the new inquiry only, not receipt of the October 22 email.",
+      "events": [
+        {
+          "country": "Malta",
+          "institution": "American University of Malta, General Inquiries",
+          "url": "https://aum.edu.mt/Contact?department=General+Inquiries&faculty=info%40aum.edu.mt&subject=General+Inquiries+Inquiry",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "Image CAPTCHA could not be completed reliably through browser control; user took over. This is a browser-interaction limitation, not proof of defective CAPTCHA or blocked delivery. The later saved page explicitly acknowledged the inquiry.",
+          "recorded_time": "2026-10-25T22:42:06.429Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 8/Malta-captcha-state.txt",
+          "source_log_sha256": "d4fe1fb6efddcb0a2050b87e3a2bda7471ee00b0446f5f145385483478ed01c1",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 8/Malta-captcha-state.txt",
+              "sha256": "d4fe1fb6efddcb0a2050b87e3a2bda7471ee00b0446f5f145385483478ed01c1",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-041"
+    },
+    {
+      "country": "Paraguay",
+      "institution": "Universidad Nacional de Canindeyú — Facultad de Ciencias y Tecnología",
+      "url": "https://facitec.edu.py/v2/contacto/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "User completed the form; browser shows Gracias por contactarnos, with message fields cleared. No repeat submission performed. Acknowledges the new inquiry only, not receipt of the October 22 email.",
+      "events": [
+        {
+          "country": "Paraguay",
+          "institution": "Universidad Nacional de Canindeyú — Facultad de Ciencias y Tecnología",
+          "url": "https://facitec.edu.py/v2/contacto/",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "Image CAPTCHA could not be completed reliably through browser control; user took over. This is a browser-interaction limitation, not proof of defective CAPTCHA or blocked delivery. The later saved page explicitly acknowledged the inquiry.",
+          "recorded_time": "2026-10-25T22:40:17.076Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 11/Paraguay-confirmed-state.txt",
+          "source_log_sha256": "b51504ba117295dba65c01acbbb66a5169f33fdc7a32f0bb53d641a60d880960",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 11/Paraguay-confirmed-state.txt",
+              "sha256": "b51504ba117295dba65c01acbbb66a5169f33fdc7a32f0bb53d641a60d880960",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-042"
+    },
+    {
+      "country": "Portugal",
+      "institution": "CITTA research centre, University of Porto",
+      "url": "https://citta.fe.up.pt/contact-citta",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "User reports sending the inquiry. Filled CAPTCHA modal is no longer visible; underlying blank site-contact form remains, with no receipt or success text observed. No repeat submission performed. Do not duplicate this uncertain submission.",
+      "events": [
+        {
+          "country": "Portugal",
+          "institution": "CITTA research centre, University of Porto",
+          "url": "https://citta.fe.up.pt/contact-citta",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "User reports sending the inquiry. Filled CAPTCHA modal is no longer visible; underlying blank site-contact form remains, with no receipt or success text observed. No repeat submission performed. Do not duplicate this uncertain submission.",
+          "recorded_time": "2026-10-25T22:41:06.924Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 8/Portugal-after-user-submission-state.txt",
+              "sha256": "efe7ead74e59d36052c1c4f30f4bb1a8d526903e5831f8f20906f004a01a8375",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 8/Portugal-after-user-submission.png",
+              "sha256": "bd17884529cd6ad62dbb9411e5c7854ca966cb77f0f362939958742140fc6421",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-043"
+    },
+    {
+      "country": "Rwanda",
+      "institution": "www.rwandainusa.gov.rw",
+      "url": "https://www.rwandainusa.gov.rw/contact",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed — after resolving 500-character validation and CAPTCHA, form redirected to homepage without visible receipt; not retried",
+      "latest_saved_observation": "unconfirmed — after resolving 500-character validation and CAPTCHA, form redirected to homepage without visible receipt; not retried",
+      "events": [
+        {
+          "country": "Rwanda",
+          "institution": "www.rwandainusa.gov.rw",
+          "url": "https://www.rwandainusa.gov.rw/contact",
+          "status_at_capture": "unconfirmed — after resolving 500-character validation and CAPTCHA, form redirected to homepage without visible receipt; not retried",
+          "observation": "unconfirmed — after resolving 500-character validation and CAPTCHA, form redirected to homepage without visible receipt; not retried",
+          "recorded_time": "2026-10-25T19:12:11.766Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-044"
+    },
+    {
+      "country": "Serbia",
+      "institution": "Development Agency of Serbia",
+      "url": "https://ras.gov.rs/en/about-us/contact-us",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "Unconfirmed / no success in saved record",
+      "latest_saved_observation": "First CAPTCHA submission rejected as Incorrect captcha code. Subsequent CAPTCHA image failed to load. Form restored; no successful submission.",
+      "events": [
+        {
+          "country": "Serbia",
+          "institution": "Development Agency of Serbia",
+          "url": "https://ras.gov.rs/en/about-us/contact-us",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "First CAPTCHA submission rejected as Incorrect captcha code. Subsequent CAPTCHA image failed to load. Form restored; no successful submission.",
+          "recorded_time": null,
+          "time_basis": "No exact event time established by this extract.",
+          "source_log": "Serbia-pending.txt",
+          "source_log_sha256": "1cddbb8e25fd6510776997d064220fe59e1fb7a96aec02a6c3346d7b77a801c0",
+          "retained_evidence": [
+            {
+              "path": "Serbia-pending.txt",
+              "sha256": "1cddbb8e25fd6510776997d064220fe59e1fb7a96aec02a6c3346d7b77a801c0",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-045"
+    },
+    {
+      "country": "Solomon Islands",
+      "institution": "Ministry of Communication and Aviation — Ministry Information Desk",
+      "url": "https://www.mca.gov.sb/contact-us.html",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "captcha_stalled_no_submission_confirmation",
+      "latest_saved_observation": "User reports CAPTCHA keeps loading. Spinner verified; form intact, no confirmation. No agent submission. Resolve status before another attempt.",
+      "events": [
+        {
+          "country": "Solomon Islands",
+          "institution": "Ministry of Communication and Aviation — Ministry Information Desk",
+          "url": "https://www.mca.gov.sb/contact-us.html",
+          "status_at_capture": "captcha_stalled_no_submission_confirmation",
+          "observation": "User reports CAPTCHA keeps loading. Spinner verified; form intact, no confirmation. No agent submission. Resolve status before another attempt.",
+          "recorded_time": "2026-10-26T05:36:54.921888+00:00",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 16/outcomes.json",
+          "source_log_sha256": "0bca179ecfbfed2a2ddd4cb25689849d7f187cc8275c6087c8202c954740062a",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-046"
+    },
+    {
+      "country": "Spain",
+      "institution": "Instituto Nacional de Estadística (INE), general inquiry form",
+      "url": "https://www.ine.es/infoine/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "New forwarding inquiry acknowledged by INE. Second CAPTCHA answer accepted after first returned another challenge without an explanation. No persistent CAPTCHA failure established. Original October 22 email delivery, forwarding and human reading remain unverified. Do not duplicate.",
+      "events": [
+        {
+          "country": "Spain",
+          "institution": "Instituto Nacional de Estadística (INE), general inquiry form",
+          "url": "https://www.ine.es/infoine/",
+          "status_at_capture": "confirmed",
+          "observation": "New forwarding inquiry acknowledged by INE. Second CAPTCHA answer accepted after first returned another challenge without an explanation. No persistent CAPTCHA failure established. Original October 22 email delivery, forwarding and human reading remain unverified. Do not duplicate.",
+          "recorded_time": "2026-10-26T02:49:01.995Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 14/outcomes.json",
+          "source_log_sha256": "0791cb8f568110dca264034adfd29afc91fe42109467ea2f0575d6a407ceb985",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 14/Spain-confirmed-state.txt",
+              "sha256": "6beaf1aa2f1f50ceee3b344601f9eb61c09955f9473d1acdc59210fe0bde91af",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 14/Spain-confirmed.png",
+              "sha256": "03f5036b5fb48184450667d5287190dd33489b2bdb35c38ad083e636197caf01",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-047"
+    },
+    {
+      "country": "Turkiye-embassy",
+      "institution": "washington-emb.mfa.gov.tr",
+      "url": "https://washington-emb.mfa.gov.tr/Mission/Contact",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+      "latest_saved_observation": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+      "events": [
+        {
+          "country": "Turkiye-embassy",
+          "institution": "washington-emb.mfa.gov.tr",
+          "url": "https://washington-emb.mfa.gov.tr/Mission/Contact",
+          "status_at_capture": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+          "observation": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+          "recorded_time": "2026-10-25T19:09:50.379Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-048"
+    },
+    {
+      "country": "Turkmenistan",
+      "institution": "usa.tmembassy.gov.tm",
+      "url": "https://usa.tmembassy.gov.tm/en/contacts",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+      "latest_saved_observation": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+      "events": [
+        {
+          "country": "Turkmenistan",
+          "institution": "usa.tmembassy.gov.tm",
+          "url": "https://usa.tmembassy.gov.tm/en/contacts",
+          "status_at_capture": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+          "observation": "unconfirmed — Send/Submit clicked once after approved CAPTCHA; no visible receipt or error; not retried",
+          "recorded_time": "2026-10-25T19:09:50.484Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-049"
+    },
+    {
+      "country": "Uganda",
+      "institution": "Research and Education Network for Uganda",
+      "url": "https://renu.ac.ug/contact-us/",
+      "category": "CAPTCHA or browser-interaction obstacle",
+      "latest_saved_status": "deferred_prior_uncertain",
+      "latest_saved_observation": "Filled approved inquiry with all five OSF links and iCloud reply address; optional phone empty. The browser tool refused the hCaptcha image action because it cannot safely inspect fractional iframe coordinates. Send Message was not clicked. Preserved for manual completion. Queue audit: an earlier country inquiry has an uncertain outcome; do not submit this alternative or any repeat.",
+      "events": [
+        {
+          "country": "Uganda",
+          "institution": "Research and Education Network for Uganda",
+          "url": "https://renu.ac.ug/contact-us/",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "Browser automation refused the hCaptcha image action because of fractional iframe coordinates. This was a tool limitation, not an observed CAPTCHA provider rejection. Send was not clicked. Deferred to avoid duplicating an earlier uncertain country inquiry.",
+          "recorded_time": "2026-10-25T21:18:21.670Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 6/Uganda-captcha-state.txt",
+          "source_log_sha256": "8ffcb9a14e19715ab628212e4c192395810b43698ae1d3087bb99ec02cf8f6a9",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 6/Uganda-captcha-state.txt",
+              "sha256": "8ffcb9a14e19715ab628212e4c192395810b43698ae1d3087bb99ec02cf8f6a9",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-050"
+    },
+    {
+      "country": "Kiribati",
+      "institution": "Ministry of Culture and Internal Affairs",
+      "url": "https://mcia.gov.ki/forms/contact",
+      "category": "Explicit CAPTCHA configuration error",
+      "latest_saved_status": "not_ready",
+      "latest_saved_observation": "Loaded form includes invisible reCAPTCHA displaying ERROR for site owner: Invalid domain for site key. No user data entered, no submission attempted. Prefer a different route.",
+      "events": [
+        {
+          "country": "Kiribati",
+          "institution": "Ministry of Culture and Internal Affairs",
+          "url": "https://mcia.gov.ki/forms/contact",
+          "status_at_capture": "not_ready",
+          "observation": "Loaded form includes invisible reCAPTCHA displaying ERROR for site owner: Invalid domain for site key. No user data entered, no submission attempted. Prefer a different route.",
+          "recorded_time": "2026-10-26T04:49:21.280074+00:00",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 15/outcomes.json",
+          "source_log_sha256": "5f2064533682eecc3670f854faa93358ba473f25199b15229d45810c9009595a",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 15/Kiribati-MCIA-site-key-error-state.txt",
+              "sha256": "b83106ea376efa67e90cfbefdaf4397d192ed40cf2748a68b9b64821d1002101",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 15/Kiribati-MCIA-site-key-error.png",
+              "sha256": "fc7ae1c28d360bfe45cf66f8d91979fe57763396936a343ee956fca401713621",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-051"
+    },
+    {
+      "country": "Kyrgyzstan",
+      "institution": "Kyrgyz National University, Department of Science and Scientometric Analysis",
+      "url": "https://nauka.knu.edu.kg/en/contact/",
+      "category": "Explicit CAPTCHA configuration error",
+      "latest_saved_status": "not_ready",
+      "latest_saved_observation": "Before entering any inquiry, Google reCAPTCHA widget displayed ERROR for site owner: Invalid key type. Site integration/configuration issue indicated; no form submission attempted. This does not establish deliberate blocking.",
+      "events": [
+        {
+          "country": "Kyrgyzstan",
+          "institution": "Kyrgyz National University, Department of Science and Scientometric Analysis",
+          "url": "https://nauka.knu.edu.kg/en/contact/",
+          "status_at_capture": "not_ready",
+          "observation": "Before entering any inquiry, Google reCAPTCHA widget displayed ERROR for site owner: Invalid key type. Site integration/configuration issue indicated; no form submission attempted. This does not establish deliberate blocking.",
+          "recorded_time": "2026-10-25T23:57:51.773Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Kyrgyzstan-captcha-error-state.txt",
+              "sha256": "75e7c4c102c74d68805480ccd4ec2c56df884020da7534d5092a58414b942167",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Kyrgyzstan-captcha-error.png",
+              "sha256": "0918b367a48888fdced61204d6e9483d966545f829805a41df443402ec8b8731",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-052"
+    },
+    {
+      "country": "Denmark",
+      "institution": "BioInnovation Institute",
+      "url": "https://bii.dk/about/contact/",
+      "category": "Input validation / corrected preparation error",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "User submitted after the subject was shortened to 42 characters. The form was replaced by the explicit acknowledgement: Thank you for reaching out to BII! The pre-submission state included iCloud reply contact, all five OSF links, checked consent and user-selected CHILD_Zenodo_Evidence_Package.zip. This confirms web-form acknowledgement only, not original email delivery, forwarding, or human reading.",
+      "events": [
+        {
+          "country": "Denmark",
+          "institution": "BioInnovation Institute",
+          "url": "https://bii.dk/about/contact/",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "The value provided exceeds 50 characters. The assistant had inserted a 66-character Area of inquiry into a 50-character field. This was an assistant preparation error, corrected to 42 characters before the user obtained acknowledgment. Cookie rejection is not established as its cause.",
+          "recorded_time": "2026-10-25T23:00:25.813Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 13/Denmark-validation-analysis.txt",
+          "source_log_sha256": "1b66199dcfec082c62f591b9060c3961a5606751f8d5d78f9eb6717eafb5983d",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Denmark-validation-analysis.txt",
+              "sha256": "1b66199dcfec082c62f591b9060c3961a5606751f8d5d78f9eb6717eafb5983d",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-053"
+    },
+    {
+      "country": "United Arab Emirates",
+      "institution": "Advanced Technology Research Council",
+      "url": "https://atrc.gov.ae/contact",
+      "category": "Input validation / later acknowledgment",
+      "latest_saved_status": "confirmed",
+      "latest_saved_observation": "Confirmed acknowledgment of the new forwarding inquiry. The form rejected special characters. Original identifiers and five OSF links were preserved in word-spelled form; the actual reply email remained in the Email Address field.",
+      "events": [
+        {
+          "country": "United Arab Emirates",
+          "institution": "Advanced Technology Research Council",
+          "url": "https://atrc.gov.ae/contact",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "The form rejected special characters in the Message field. The inquiry was reformatted with word-spelled identifiers and OSF links, then acknowledged.",
+          "recorded_time": null,
+          "time_basis": "No exact event time established by this extract.",
+          "source_log": "Alternative forwarding routes/UAE-validation-error.txt",
+          "source_log_sha256": "ee42f4ea052b5cdbc6ce34f8943f3b200401217193fc07469f80af608ebb37fa",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/UAE-validation-error.txt",
+              "sha256": "ee42f4ea052b5cdbc6ce34f8943f3b200401217193fc07469f80af608ebb37fa",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-054"
+    },
+    {
+      "country": "Bulgaria",
+      "institution": "Institute of Solid State Physics, Bulgarian Academy of Sciences",
+      "url": "https://issp.bas.bg/en/contacts.php/",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "Submitted after approval; remained on just a moment. No repeat submission.",
+      "events": [
+        {
+          "country": "Bulgaria",
+          "institution": "Institute of Solid State Physics, Bulgarian Academy of Sciences",
+          "url": "https://issp.bas.bg/en/contacts.php/",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Submitted after approval; remained on just a moment. No repeat submission.",
+          "recorded_time": "2026-10-25T19:39:04.258760+00:00",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Bulgaria-final-state.txt",
+              "sha256": "fa562bdc6c00118b32e3b9abfeb2314a08a12456e1928117e3094fdff86c62f0",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-055"
+    },
+    {
+      "country": "Cabo Verde",
+      "institution": "Direção Geral do Ensino Superior",
+      "url": "https://ses.gov.cv/contacto",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "Submit clicked once. Page changed to contacto? and form reset without acknowledgment. No repeat submission.",
+      "events": [
+        {
+          "country": "Cabo Verde",
+          "institution": "Direção Geral do Ensino Superior",
+          "url": "https://ses.gov.cv/contacto",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Submit clicked once. Page changed to contacto? and form reset without acknowledgment. No repeat submission.",
+          "recorded_time": "2026-10-25T20:28:14.478Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 3/Cabo Verde-outcome-state.txt",
+              "sha256": "c17b046273f75f5e8e29a3df7238e577a8383dda5a052c36c9a99fcffa7daa86",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 3/Cabo Verde-outcome.jpg",
+              "sha256": "447870dec23546457a0b186f3a9ef10948540bcc583e23cb15c9a21d317765d4",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-056"
+    },
+    {
+      "country": "Czech Republic",
+      "institution": "Institute of Microbiology, Czech Academy of Sciences",
+      "url": "https://mbu.cas.cz/kontakt",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "Name, iCloud address and complete inquiry entered; communication-data consent checked with explicit approval. Submit clicked once. Form returned at #wpcf7-f160-p38-o1 with values retained and no success/error acknowledgment. Not resubmitted.",
+      "events": [
+        {
+          "country": "Czech Republic",
+          "institution": "Institute of Microbiology, Czech Academy of Sciences",
+          "url": "https://mbu.cas.cz/kontakt",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Name, iCloud address and complete inquiry entered; communication-data consent checked with explicit approval. Submit clicked once. Form returned at #wpcf7-f160-p38-o1 with values retained and no success/error acknowledgment. Not resubmitted.",
+          "recorded_time": "2026-10-25T20:46:01.855Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 4/Czech Republic-outcome-state.txt",
+              "sha256": "1ec07af3ab4c785fda42743d98cac8b0fb85a28cafffcf3ffe8d7db0c3e1f4ee",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 4/Czech Republic-outcome.jpg",
+              "sha256": "a7c0a7671ff3d929022224a3ff07f66d428e1a793d66bd33e87ab65f850bbde5",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-057"
+    },
+    {
+      "country": "Democratic Republic of Congo",
+      "institution": "pmundrc-ny.org",
+      "url": "https://pmundrc-ny.org/contact/",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — Send clicked once; no success or error acknowledgment appeared, not retried",
+      "latest_saved_observation": "unconfirmed — Send clicked once; no success or error acknowledgment appeared, not retried",
+      "events": [
+        {
+          "country": "Democratic Republic of Congo",
+          "institution": "pmundrc-ny.org",
+          "url": "https://pmundrc-ny.org/contact/",
+          "status_at_capture": "unconfirmed — Send clicked once; no success or error acknowledgment appeared, not retried",
+          "observation": "unconfirmed — Send clicked once; no success or error acknowledgment appeared, not retried",
+          "recorded_time": "2026-10-25T18:43:05.630Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-058"
+    },
+    {
+      "country": "Egypt",
+      "institution": "State Information Service of Egypt",
+      "url": "https://sis.gov.eg/en/state-information-service/contact-us/",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "Initial message rejected by 500-character validation. Corrected to 491 characters retaining all five links, original sender, timestamp and Message-ID. Submit clicked once with valid-length message; no acknowledgment visible. Uncertain; do not repeat.",
+      "events": [
+        {
+          "country": "Egypt",
+          "institution": "State Information Service of Egypt",
+          "url": "https://sis.gov.eg/en/state-information-service/contact-us/",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Initial message rejected by 500-character validation. Corrected to 491 characters retaining all five links, original sender, timestamp and Message-ID. Submit clicked once with valid-length message; no acknowledgment visible. Uncertain; do not repeat.",
+          "recorded_time": "2026-10-25T22:30:57.294Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 12/Egypt-unconfirmed.png",
+              "sha256": "c0f6f789db70b63e8898df088fc6f5565ef2570d79ace0a6c197c1b0bcbefe3d",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-059"
+    },
+    {
+      "country": "Ethiopia",
+      "institution": "Ministry of Innovation and Technology support portal",
+      "url": "https://gdop.gov.et/request-support",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "Unconfirmed / no success in saved record",
+      "latest_saved_observation": "Submit clicked once. No confirmation appeared. Console also reported a TypeError in static/assets/js/main.js:401; relation to submission is not established.",
+      "events": [
+        {
+          "country": "Ethiopia",
+          "institution": "Ministry of Innovation and Technology support portal",
+          "url": "https://gdop.gov.et/request-support",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "Submit clicked once. No confirmation appeared. Console also reported a TypeError in static/assets/js/main.js:401; relation to submission is not established.",
+          "recorded_time": "2026-10-25T18:08:16.181Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "Ethiopia-attempt.txt",
+          "source_log_sha256": "73ec977bb46a032e53a210c67e00c9a3bc9b476685d8d11d36e7e6e4c9b0ab48",
+          "retained_evidence": [
+            {
+              "path": "Ethiopia-attempt.txt",
+              "sha256": "73ec977bb46a032e53a210c67e00c9a3bc9b476685d8d11d36e7e6e4c9b0ab48",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-060"
+    },
+    {
+      "country": "Germany",
+      "institution": "www.auswaertiges-amt.de",
+      "url": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/contact-form",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "Submit attempted once; confirmation absent; returned form errors",
+      "latest_saved_observation": "Submit attempted once; confirmation absent; returned form errors",
+      "events": [
+        {
+          "country": "Germany",
+          "institution": "www.auswaertiges-amt.de",
+          "url": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/contact-form",
+          "status_at_capture": "Submit attempted once; confirmation absent; returned form errors",
+          "observation": "Submit attempted once; confirmation absent; returned form errors",
+          "recorded_time": "2026-10-25T18:16:36.145Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-061"
+    },
+    {
+      "country": "Guatemala",
+      "institution": "www.embaguateusa.gob.gt",
+      "url": "https://www.embaguateusa.gob.gt/contactanos",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — Send displayed sending then fields reset; no visible acknowledgment, not retried",
+      "latest_saved_observation": "unconfirmed — Send displayed sending then fields reset; no visible acknowledgment, not retried",
+      "events": [
+        {
+          "country": "Guatemala",
+          "institution": "www.embaguateusa.gob.gt",
+          "url": "https://www.embaguateusa.gob.gt/contactanos",
+          "status_at_capture": "unconfirmed — Send displayed sending then fields reset; no visible acknowledgment, not retried",
+          "observation": "unconfirmed — Send displayed sending then fields reset; no visible acknowledgment, not retried",
+          "recorded_time": "2026-10-25T18:40:30.604Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-062"
+    },
+    {
+      "country": "Guyana",
+      "institution": "University of Guyana Registry",
+      "url": "https://registry.ug.edu.gy/contact-us",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "User reported submitting. Browser redirected from contact form to homepage with token query, but no explicit success or error text is visible in full page accessibility state or screenshot. Redirect alone is not delivery confirmation. Mark uncertain and do not repeat.",
+      "events": [
+        {
+          "country": "Guyana",
+          "institution": "University of Guyana Registry",
+          "url": "https://registry.ug.edu.gy/contact-us",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "User reported submitting. Browser redirected from contact form to homepage with token query, but no explicit success or error text is visible in full page accessibility state or screenshot. Redirect alone is not delivery confirmation. Mark uncertain and do not repeat.",
+          "recorded_time": "2026-10-25T23:30:23.875Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Guyana-post-submit-state.txt",
+              "sha256": "3ebfe245eed124916350abacd0cc374688d401aa54d7366b0493d6d96738c4b4",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Guyana-post-submit.png",
+              "sha256": "809c01f1c253d99a8bf0ed21ce9829eb60f101f2e817fcb59b00c208c8e09e2b",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-063"
+    },
+    {
+      "country": "India",
+      "institution": "Department of Science and Technology",
+      "url": "https://www.dst.gov.in/feedback",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "Unconfirmed / no success in saved record",
+      "latest_saved_observation": "Submit clicked once after validation passed. No confirmation or reference number appeared. Delivery unconfirmed. The form limited the text to 200 characters.",
+      "events": [
+        {
+          "country": "India",
+          "institution": "Department of Science and Technology",
+          "url": "https://www.dst.gov.in/feedback",
+          "status_at_capture": "Supplementary preserved observation",
+          "observation": "Submit clicked once after validation passed. No confirmation or reference number appeared. Delivery unconfirmed. The form limited the text to 200 characters.",
+          "recorded_time": "2026-10-25T18:08:16.181Z",
+          "time_basis": "Saved observation time, not independently certified server time.",
+          "source_log": "India-attempt.txt",
+          "source_log_sha256": "6ff6bc7e4df3b5c3bdf8e452ac4498a11ddd326bb1ea8038bc4b2978f2aaa729",
+          "retained_evidence": [
+            {
+              "path": "India-attempt.txt",
+              "sha256": "6ff6bc7e4df3b5c3bdf8e452ac4498a11ddd326bb1ea8038bc4b2978f2aaa729",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-064"
+    },
+    {
+      "country": "Luxembourg",
+      "institution": "washington.mae.lu",
+      "url": "https://washington.mae.lu/en/support/contact.updateitem.html",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — preview step returned site maintenance page; no final send confirmation",
+      "latest_saved_observation": "unconfirmed — preview step returned site maintenance page; no final send confirmation",
+      "events": [
+        {
+          "country": "Luxembourg",
+          "institution": "washington.mae.lu",
+          "url": "https://washington.mae.lu/en/support/contact.updateitem.html",
+          "status_at_capture": "unconfirmed — preview step returned site maintenance page; no final send confirmation",
+          "observation": "unconfirmed — preview step returned site maintenance page; no final send confirmation",
+          "recorded_time": "2026-10-25T18:27:02.979Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-065"
+    },
+    {
+      "country": "Malawi",
+      "institution": "www.malawiembassyusa.com",
+      "url": "https://www.malawiembassyusa.com/contact",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — clicked Submit once; fields reset, but no visible success acknowledgment; not retried",
+      "latest_saved_observation": "unconfirmed — clicked Submit once; fields reset, but no visible success acknowledgment; not retried",
+      "events": [
+        {
+          "country": "Malawi",
+          "institution": "www.malawiembassyusa.com",
+          "url": "https://www.malawiembassyusa.com/contact",
+          "status_at_capture": "unconfirmed — clicked Submit once; fields reset, but no visible success acknowledgment; not retried",
+          "observation": "unconfirmed — clicked Submit once; fields reset, but no visible success acknowledgment; not retried",
+          "recorded_time": "2026-10-25T18:34:01.836Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-066"
+    },
+    {
+      "country": "Montenegro",
+      "institution": "www.gov.me",
+      "url": "https://www.gov.me/en/government-of-montenegro/contact-public-relations-service",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — Send clicked once; no visible acknowledgment or error; not retried",
+      "latest_saved_observation": "unconfirmed — Send clicked once; no visible acknowledgment or error; not retried",
+      "events": [
+        {
+          "country": "Montenegro",
+          "institution": "www.gov.me",
+          "url": "https://www.gov.me/en/government-of-montenegro/contact-public-relations-service",
+          "status_at_capture": "unconfirmed — Send clicked once; no visible acknowledgment or error; not retried",
+          "observation": "unconfirmed — Send clicked once; no visible acknowledgment or error; not retried",
+          "recorded_time": "2026-10-25T18:51:55.634Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-067"
+    },
+    {
+      "country": "Namibia",
+      "institution": "namibiaembassyusa.org",
+      "url": "https://namibiaembassyusa.org/contact/",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — form disappeared after Sending; no visible acknowledgment or error, not retried",
+      "latest_saved_observation": "unconfirmed — form disappeared after Sending; no visible acknowledgment or error, not retried",
+      "events": [
+        {
+          "country": "Namibia",
+          "institution": "namibiaembassyusa.org",
+          "url": "https://namibiaembassyusa.org/contact/",
+          "status_at_capture": "unconfirmed — form disappeared after Sending; no visible acknowledgment or error, not retried",
+          "observation": "unconfirmed — form disappeared after Sending; no visible acknowledgment or error, not retried",
+          "recorded_time": "2026-10-25T19:04:53.948Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-068"
+    },
+    {
+      "country": "North Macedonia",
+      "institution": "Institute for Applied Research for Business",
+      "url": "https://iarb.edu.mk/contact?lang=en",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "User reports submission. Form fields cleared. Page DOM contains a sent-message d-block element with Your message has been sent. Thank you!, but visibility check is false and element dimensions are zero; no visible receipt was captured. Retained as unconfirmed to avoid duplicate sending. No repeat submission performed.",
+      "events": [
+        {
+          "country": "North Macedonia",
+          "institution": "Institute for Applied Research for Business",
+          "url": "https://iarb.edu.mk/contact?lang=en",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "User reports submission. Form fields cleared. Page DOM contains a sent-message d-block element with Your message has been sent. Thank you!, but visibility check is false and element dimensions are zero; no visible receipt was captured. Retained as unconfirmed to avoid duplicate sending. No repeat submission performed.",
+          "recorded_time": "2026-10-25T22:48:06.273Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/North Macedonia-receipt-observation.json",
+              "sha256": "9e26cf3df94209e9ea1d6127286a5a155883ab8d9bd33de7c2789de7d5cd3a47",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/North Macedonia-form-after-submission.png",
+              "sha256": "e6556d924e204fe791a3a8a5a934d0cbb2349148fbd5925b5ee81388dd1e4fab",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-069"
+    },
+    {
+      "country": "Palestine",
+      "institution": "Higher Council for Innovation and Excellence",
+      "url": "https://hcie.ps/?page_id=192&lang=en",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "User reports clicking Send. Browser remains on Sending... with populated fields and no receipt/error. Available console errors/warnings empty. Actual submission response headers were not captured, so delivery and cause remain unresolved. No resubmission made. Separate unauthenticated public GETs returned HTTP 200, Server LiteSpeed, no CF-Ray or CF-Mitigated headers. Public form script sets Sending before submitting and has success handling but no AJAX error callback or timeout configured, allowing failures or non-JSON responses to leave the spinner unresolved. This does not prove the specific failure path.",
+      "events": [
+        {
+          "country": "Palestine",
+          "institution": "Higher Council for Innovation and Excellence",
+          "url": "https://hcie.ps/?page_id=192&lang=en",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "User reports clicking Send. Browser remains on Sending... with populated fields and no receipt/error. Available console errors/warnings empty. Actual submission response headers were not captured, so delivery and cause remain unresolved. No resubmission made. Separate unauthenticated public GETs returned HTTP 200, Server LiteSpeed, no CF-Ray or CF-Mitigated headers. Public form script sets Sending before submitting and has success handling but no AJAX error callback or timeout configured, allowing failures or non-JSON responses to leave the spinner unresolved. This does not prove the specific failure path.",
+          "recorded_time": "2026-10-25T23:47:04.172Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Palestine-sending-unconfirmed-state.txt",
+              "sha256": "5f14d981e12a3b8a64456e2b85ecb0a19e28886ad1e2319dd2cdbe21a2205cbd",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 13/Palestine-sending-unconfirmed.png",
+              "sha256": "bcdc0f334e73723b0323b54b7453bac6b0188de8d7929c6f8a176e40f98836fd",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-070"
+    },
+    {
+      "country": "Rwanda",
+      "institution": "Rwanda Academy of Sciences",
+      "url": "https://ras.org.rw/contact.html",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "Send Message clicked once. Form remained filled, with no acknowledgment or error. The submit control is outside a form element. No duplicate submission.",
+      "events": [
+        {
+          "country": "Rwanda",
+          "institution": "Rwanda Academy of Sciences",
+          "url": "https://ras.org.rw/contact.html",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Send Message clicked once. Form remained filled, with no acknowledgment or error. The submit control is outside a form element. No duplicate submission.",
+          "recorded_time": "2026-10-25T20:17:27.253Z",
+          "time_basis": "Local evidence-file modification time; not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/alternative-routes.json",
+          "source_log_sha256": "8cd0baf40d3c68e9c2667d65ad44776e68b58598a8ea796900f14b9c3e47d7a6",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Further forwarding batch/Rwanda-outcome-state.txt",
+              "sha256": "6be83ce7d93ba8e21c0485b1b0d0956e7936ea5da157ec1da6c9dff5c2cd20ae",
+              "kind": "evidence"
+            }
+          ]
+        }
+      ],
+      "id": "CF-071"
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "institution": "Information Technology Services Division, Government of Saint Vincent and the Grenadines",
+      "url": "https://itsd.gov.vc/itsd/index.php/contact-us",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "uncertain_after_user_submission",
+      "latest_saved_observation": "User reports clicking Send; resulting URL is unchanged but document is fully loaded and blank. DOM has empty title and body text, 171 HTML characters. Captured browser warning/error log is empty. No success acknowledgment, explicit error text or HTTP status observed. Acceptance cannot be determined; do not resubmit or duplicate through another route.",
+      "events": [
+        {
+          "country": "Saint Vincent and the Grenadines",
+          "institution": "Information Technology Services Division, Government of Saint Vincent and the Grenadines",
+          "url": "https://itsd.gov.vc/itsd/index.php/contact-us",
+          "status_at_capture": "uncertain_after_user_submission",
+          "observation": "User reports clicking Send; resulting URL is unchanged but document is fully loaded and blank. DOM has empty title and body text, 171 HTML characters. Captured browser warning/error log is empty. No success acknowledgment, explicit error text or HTTP status observed. Acceptance cannot be determined; do not resubmit or duplicate through another route.",
+          "recorded_time": "2026-10-26T01:44:11.903Z",
+          "time_basis": "UTC observation time, not a server receipt timestamp.",
+          "source_log": "Alternative forwarding routes/Continuation batch 14/outcomes.json",
+          "source_log_sha256": "0791cb8f568110dca264034adfd29afc91fe42109467ea2f0575d6a407ceb985",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 14/Saint-Vincent-after-click-observation.json",
+              "sha256": "9a33367b709401de19667a9e14a62ef6011bfd54ab2ccf5f825342b4685db088",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 14/Saint-Vincent-after-click-white-page.png",
+              "sha256": "be825d679c3ba7c730288ac85820bc89c9e321ac7768938398dfce25dfac8f32",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-072"
+    },
+    {
+      "country": "Samoa",
+      "institution": "Samoa Bureau of Statistics",
+      "url": "https://www.sbs.gov.ws/contact-us/",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed_submission",
+      "latest_saved_observation": "Cleared fields alone do not establish acceptance or failure. Delivery remains unconfirmed. No resend attempted.",
+      "events": [
+        {
+          "country": "Samoa",
+          "institution": "Samoa Bureau of Statistics",
+          "url": "https://www.sbs.gov.ws/contact-us/",
+          "status_at_capture": "unconfirmed_submission",
+          "observation": "Cleared fields alone do not establish acceptance or failure. Delivery remains unconfirmed. No resend attempted.",
+          "recorded_time": "2026-10-26T05:21:09.263Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "Alternative forwarding routes/Continuation batch 16/outcomes.json",
+          "source_log_sha256": "0bca179ecfbfed2a2ddd4cb25689849d7f187cc8275c6087c8202c954740062a",
+          "retained_evidence": [
+            {
+              "path": "Alternative forwarding routes/Continuation batch 16/Samoa-SBS-after-submit-state.txt",
+              "sha256": "af6420f56a01d6fb3dd9dd450012b741ddd89f3dc84100aafe124bf7fbc0aed8",
+              "kind": "evidence"
+            },
+            {
+              "path": "Alternative forwarding routes/Continuation batch 16/Samoa-SBS-after-submit.png",
+              "sha256": "e6c1c7585ab47eb8281ac6483c291dfc48099c0dc290e0c3abe05a2d20db429b",
+              "kind": "screenshot"
+            }
+          ]
+        }
+      ],
+      "id": "CF-073"
+    },
+    {
+      "country": "Tanzania",
+      "institution": "www.us.tzembassy.go.tz",
+      "url": "https://www.us.tzembassy.go.tz/contacts",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — clicked Send once, no success response; form stripped punctuation including URL separators; not retried",
+      "latest_saved_observation": "unconfirmed — clicked Send once, no success response; form stripped punctuation including URL separators; not retried",
+      "events": [
+        {
+          "country": "Tanzania",
+          "institution": "www.us.tzembassy.go.tz",
+          "url": "https://www.us.tzembassy.go.tz/contacts",
+          "status_at_capture": "unconfirmed — clicked Send once, no success response; form stripped punctuation including URL separators; not retried",
+          "observation": "unconfirmed — clicked Send once, no success response; form stripped punctuation including URL separators; not retried",
+          "recorded_time": "2026-10-25T18:28:44.966Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-074"
+    },
+    {
+      "country": "Uganda",
+      "institution": "washington.mofa.go.ug",
+      "url": "https://washington.mofa.go.ug/contact-us",
+      "category": "Missing or contradictory acknowledgment",
+      "latest_saved_status": "unconfirmed — submission redirected to homepage with a token but no visible acknowledgment; not retried",
+      "latest_saved_observation": "unconfirmed — submission redirected to homepage with a token but no visible acknowledgment; not retried",
+      "events": [
+        {
+          "country": "Uganda",
+          "institution": "washington.mofa.go.ug",
+          "url": "https://washington.mofa.go.ug/contact-us",
+          "status_at_capture": "unconfirmed — submission redirected to homepage with a token but no visible acknowledgment; not retried",
+          "observation": "unconfirmed — submission redirected to homepage with a token but no visible acknowledgment; not retried",
+          "recorded_time": "2026-10-25T18:41:26.393Z",
+          "time_basis": "Saved observation/attempt log; not independently certified server time.",
+          "source_log": "EML-matched inquiries/outcomes.json",
+          "source_log_sha256": "9c1c10e637da7182bef462f005444b4bfb7cdb32709540a3037ab6df145348c4",
+          "retained_evidence": []
+        }
+      ],
+      "id": "CF-075"
+    }
+  ]
+}

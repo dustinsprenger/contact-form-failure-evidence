@@ -1,29 +1,32 @@
-# When Contact Forms Fail
+# When Contact Forms Fail — The Delivery Chain
 
-**ABEL and Dustin Sprenger · October 25, 2026**
+ABEL and Dustin Sprenger · Expanded October 28, 2026
 
-An independent evidence record of one explicit reCAPTCHA integration error and two university contact-form failures with unresolved causes.
+The new Honduras embassy reply names Framer in the form-notification path and acknowledges receipt of the inquiry. The quoted notification includes all five OSF links. The embassy says it cannot establish receipt of the original October 22 email and its attachments through this channel.
 
-[Read the evidence page](https://dustinsprenger.github.io/contact-form-failure-evidence/) · [Download the evidence package](evidence.zip) · [Google forum report](https://security.googlecloudcommunity.com/fraud-defense-recaptcha-6/broken-recaptcha-and-opaque-university-form-failures-engineering-review-and-usable-diagnostics-requested-8479)
+[Read the report](https://dustinsprenger.github.io/contact-form-failure-evidence/) · [Evidence ZIP](evidence.zip) · [Redacted correspondence](honduras-reply-redacted.txt) · [EML derivative](honduras-reply-redacted.eml)
 
-## Findings
+## New evidence
 
-| Institution | Observed UTC | Result |
-|---|---|---|
-| Kyrgyz National University | 2026-10-25T23:57:51.773Z | `ERROR for site owner: Invalid key type` before inquiry entry or submission |
-| University of Sarajevo | 2026-10-25T23:53:45.116Z | Both “Unable to send email” and “Your message has been sent” |
-| Dar Al Uloom University | 2026-10-26T00:20:38.976Z | “Failed to send your message” |
+- Original reply Date header: October 27, 2026, 18:22:25 UTC.
+- Quoted notification sender: noreply@framer.com; recipient: consultasweb@hondurasemb.org.
+- Original EML SHA-256: fec32429a0eedfe46efe0d7cbf197efa7aa5a6bfdbcdadd757636abfb990bf7b. Original bytes and filesystem time preserved locally; the public EML is a clearly labeled redacted derivative.
+- Saved outer-reply headers report DKIM, SPF and DMARC pass. No fresh cryptographic validation; the quoted Framer notification is not a separately authenticated original.
+- Framer's documented filtering options, optional third-party verification, provider relationships and historical February incident are linked with explicit limits. They do not establish why unrelated sites failed.
 
-The latter two messages do not establish Google involvement. The record does not establish deliberate suppression or a common root cause. Times are observation/capture-log timestamps, not server events.
+## Expanded incident register
 
-## Evidence
+75 routes with preserved issues, including access failures, CAPTCHA problems, application/mail errors, uncertain outcomes and later recoveries. This is not a count of undelivered messages or a failure rate. Browser-control limitations and the assistant's corrected BioInnovation subject-length error are identified.
 
-Original PNG screenshots, [structured observations](observations.json), [submitted report](report.txt), [SHA-256 checksums](SHA256SUMS.txt), and Google's [submission confirmation](forum-submission-confirmation.png). The forum submission was awaiting moderator review at the recorded check.
+[Structured register](incident-register.json) · [Framer source index](framer-source-index.json) · [Preservation metadata](honduras-provenance.json) · [Checksums](SHA256SUMS.txt)
 
-Each PNG matches its retained local original. Hashes establish byte identity, not an independently certified date or causal explanation.
+The original three screenshots, original observations and submitted report remain byte-identical. [Original report](original-report-2026-10-25.html). Sensitive transport details, personal phone/location and private form tokens are excluded from the new public derivatives. No new submissions or emails were sent for this update.
 
-The full report includes the six public OSF research links, including **Fifty Milliseconds Before Consent**, and requests engineering review, safe diagnostics, accessible recovery routes and preservation of relevant records.
+## Research links
 
-## Preservation
-
-Removing the Google forum post would not erase these evidence copies. Keep corrections and responses with the original record. No credentials, cookies, private authentication tokens, or unpublished manuscripts are included. AI-assisted preparation is disclosed in the report.
+- Public research: https://osf.io/7bhyw/
+- EMELIA: https://osf.io/7jpzr/
+- FLORA: https://osf.io/jwd4u/
+- ABEL: https://osf.io/a2qy7/
+- C.H.I.L.D.: https://osf.io/9m253/
+- Fifty Milliseconds Before Consent: How Google Auctions Children's Devices Before Asking, and Who Is Bidding: https://osf.io/69hga/
